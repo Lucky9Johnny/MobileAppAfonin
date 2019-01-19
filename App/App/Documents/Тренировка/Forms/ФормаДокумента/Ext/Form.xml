@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="AfterWrite">ПослеЗаписи</Event>
+		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
+		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<UsualGroup name="ПродолжительностьТрен" id="38">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продолжительность трен</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продолжительность трен</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ПродолжительностьТренРасширеннаяПодсказка" id="39"/>
+			<ChildItems>
+				<InputField name="ПродолжительностьТренировки" id="7">
+					<DataPath>Объект.ПродолжительностьТренировки</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПродолжительностьТренировкиКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="ПродолжительностьТренировкиРасширеннаяПодсказка" id="9"/>
+				</InputField>
+				<LabelDecoration name="Декорация1" id="40">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>(мин)</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="Декорация1КонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="42"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа1" id="49">
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="50"/>
+			<ChildItems>
+				<InputField name="МестоТренировки" id="46">
+					<DataPath>Объект.МестоТренировки</DataPath>
+					<ContextMenu name="МестоТренировкиКонтекстноеМеню" id="47"/>
+					<ExtendedTooltip name="МестоТренировкиРасширеннаяПодсказка" id="48"/>
+				</InputField>
+				<Button name="ОпределитьМестоположение" id="51">
+					<Type>UsualButton</Type>
+					<Representation>Picture</Representation>
+					<CommandName>Form.Command.ОпределитьМестоположение</CommandName>
+					<Picture>
+						<xr:Abs>Picture.png</xr:Abs>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
+					</Picture>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Геолокация</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ОпределитьМестоположениеРасширеннаяПодсказка" id="52"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="Упражнения" id="10">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Упражнения</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="УпражненияКонтекстноеМеню" id="11"/>
+			<AutoCommandBar name="УпражненияКоманднаяПанель" id="12"/>
+			<ExtendedTooltip name="УпражненияРасширеннаяПодсказка" id="13"/>
+			<SearchStringAddition name="УпражненияСтрокаПоиска" id="14">
+				<AdditionSource>
+					<Item>Упражнения</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="УпражненияСтрокаПоискаКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="УпражненияСтрокаПоискаРасширеннаяПодсказка" id="16"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="УпражненияСостояниеПросмотра" id="17">
+				<AdditionSource>
+					<Item>Упражнения</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="УпражненияСостояниеПросмотраКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="УпражненияСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="УпражненияУправлениеПоиском" id="20">
+				<AdditionSource>
+					<Item>Упражнения</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="УпражненияУправлениеПоискомКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="УпражненияУправлениеПоискомРасширеннаяПодсказка" id="22"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="УпражненияНомерСтроки" id="23">
+					<DataPath>Объект.Упражнения.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="УпражненияНомерСтрокиКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="УпражненияНомерСтрокиРасширеннаяПодсказка" id="25"/>
+					<Events>
+						<Event name="Click">УпражненияНомерСтрокиНажатие</Event>
+					</Events>
+				</LabelField>
+				<InputField name="УпражненияУпражнение" id="26">
+					<DataPath>Объект.Упражнения.Упражнение</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="УпражненияУпражнениеКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="УпражненияУпражнениеРасширеннаяПодсказка" id="28"/>
+					<Events>
+						<Event name="ChoiceProcessing">УпражненияУпражнениеОбработкаВыбора</Event>
+					</Events>
+				</InputField>
+				<CheckBoxField name="УпражненияВыполнено" id="43">
+					<DataPath>Объект.Упражнения.Выполнено</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>V </v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="УпражненияВыполненоКонтекстноеМеню" id="44"/>
+					<ExtendedTooltip name="УпражненияВыполненоРасширеннаяПодсказка" id="45"/>
+					<Events>
+						<Event name="OnChange">УпражненияВыполненоПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<InputField name="УпражненияУпражнение1" id="53">
+					<DataPath>Объект.Упражнения.Упражнение</DataPath>
+					<Visible>false</Visible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Упражнение</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="УпражненияУпражнение1КонтекстноеМеню" id="54"/>
+					<ExtendedTooltip name="УпражненияУпражнение1РасширеннаяПодсказка" id="55"/>
+					<Events>
+						<Event name="OnChange">УпражненияУпражнение1НачалоВыбора</Event>
+						<Event name="StartChoice">УпражненияУпражнение1НачалоВыбора</Event>
+						<Event name="Opening">УпражненияУпражнение1НачалоВыбора</Event>
+						<Event name="StartListChoice">УпражненияУпражнение1НачалоВыбора</Event>
+						<Event name="ChoiceProcessing">УпражненияУпражнение1НачалоВыбора</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.Тренировка</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ОпределитьМестоположение" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Определить местоположение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Определить местоположение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОпределитьМестоположение</Action>
+		</Command>
+	</Commands>
+</Form>
