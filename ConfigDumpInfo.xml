@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.4">
+	<ConfigVersions>
+		<Metadata name="Catalog.ГруппыМышц" id="fd6d8479-ce2d-48e9-a505-791460caf196" configVersion="8a6719b51a5bdc4daae5db877daa771100000000"/>
+		<Metadata name="Catalog.ГруппыМышц.Form.ФормаСписка" id="bf8753ed-4c89-4e4e-8e32-7fe0572dba82" configVersion="9aa328eec73950419d75c638cb89784500000000"/>
+		<Metadata name="Catalog.ГруппыМышц.Form.ФормаСписка.Form" id="bf8753ed-4c89-4e4e-8e32-7fe0572dba82.0" configVersion="7b3fa8701c4884439c8ec590ddb8724e00000000"/>
+		<Metadata name="Catalog.ГруппыМышц.Predefined" id="fd6d8479-ce2d-48e9-a505-791460caf196.1c" configVersion="60460b28c6342d42ad9cbac81558328300000000"/>
+		<Metadata name="Catalog.Упражнения" id="bfbf83c8-b5d9-426d-b7f7-96c0d972ad1a" configVersion="5ad96f48cd9fc04e94a05be93917722f00000000">
+			<Metadata name="Catalog.Упражнения.Attribute.ВремяВыполнения" id="55b0baa9-c16c-4dd2-97af-139fc677b39b"/>
+			<Metadata name="Catalog.Упражнения.Attribute.Картинка" id="6d71dd03-1d15-4283-8020-3004f849d171"/>
+			<Metadata name="Catalog.Упражнения.Attribute.Описание" id="f1f2dd8c-b07a-4b09-80e6-8f9f7697d850"/>
+		</Metadata>
+		<Metadata name="Catalog.Упражнения.Form.ФормаСписка" id="afe25263-8798-4a07-b6d9-05893542c709" configVersion="33327562bac3f24591541ea7d204417f00000000"/>
+		<Metadata name="Catalog.Упражнения.Form.ФормаСписка.Form" id="afe25263-8798-4a07-b6d9-05893542c709.0" configVersion="eea206bbffe07a4cbfa8bf33cb5b7b8200000000"/>
+		<Metadata name="Catalog.Упражнения.Form.ФормаЭлемента" id="3c8da52a-3abd-4533-84eb-f8ddfab10da6" configVersion="a0878a572dc9354d9199b5de79e529b200000000"/>
+		<Metadata name="Catalog.Упражнения.Form.ФормаЭлемента.Form" id="3c8da52a-3abd-4533-84eb-f8ddfab10da6.0" configVersion="bf815b579a4ffe4d9bad55d0c4f1a76a00000000"/>
+		<Metadata name="CommonForm.Форма" id="d0eb393d-055d-4340-b3a6-8175dad6d2f4" configVersion="f5627a700a67b9459b6e2dff694b92cc00000000"/>
+		<Metadata name="CommonForm.Форма.Form" id="d0eb393d-055d-4340-b3a6-8175dad6d2f4.0" configVersion="8dea2b0a8690bc4f896bc19599d39cc300000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияНаКлиенте" id="d514546c-47aa-4755-a36c-c27384c7ff8e" configVersion="50eac030ab446e4cbba0d2a027d7151000000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияНаКлиенте.Module" id="d514546c-47aa-4755-a36c-c27384c7ff8e.0" configVersion="2ede9036d1a3db45b928bbdf0422600400000000"/>
+		<Metadata name="Configuration.ДневникТренировок" id="15a4eca2-6668-4d48-8819-ed27081fc1c0" configVersion="39b437d751d14843b710b5fa521d73c200000000"/>
+		<Metadata name="Configuration.ДневникТренировок.HomePageWorkArea" id="6af910e7-6059-461a-9c1d-704a711ea217.8" configVersion="39f1339f568ad14e9d4731f2bd7f196c00000000"/>
+		<Metadata name="Configuration.ДневникТренировок.MainSectionCommandInterface" id="6af910e7-6059-461a-9c1d-704a711ea217.9" configVersion="7d0b1c43e3ffa94ca9c367eb9b58acb300000000"/>
+		<Metadata name="DataProcessor.ВыполнениеУпражнения" id="c6355382-35c4-4c63-b32c-743f695ba128" configVersion="1a36221f255cbb45b48d557c965197f600000000"/>
+		<Metadata name="DataProcessor.ВыполнениеУпражнения.Form.Форма" id="7459e07f-53ff-4eff-9908-8d7ceb88da49" configVersion="7614836bf9ef7743be74a83e695f61e200000000"/>
+		<Metadata name="DataProcessor.ВыполнениеУпражнения.Form.Форма.Form" id="7459e07f-53ff-4eff-9908-8d7ceb88da49.0" configVersion="54871eb95ea8404badeff4dce3dd2f6e00000000"/>
+		<Metadata name="Document.СделанноеФото" id="671d410e-0322-4012-a5b6-1e343c63075e" configVersion="bf2474c4a9424c4f8b370ee0215b677c00000000">
+			<Metadata name="Document.СделанноеФото.Attribute.Комментарий" id="cc76b2f6-cc27-47c9-985c-e37bc076fe91"/>
+			<Metadata name="Document.СделанноеФото.Attribute.Фото" id="ff1e784b-eaa9-4b72-967a-0f2a8732bd4a"/>
+		</Metadata>
+		<Metadata name="Document.СделанноеФото.Form.ФормаФотоотчет" id="903f2e3c-4308-46df-b916-56931cb13039" configVersion="5c348b3e3660df43acb89a9369af0c7b00000000"/>
+		<Metadata name="Document.СделанноеФото.Form.ФормаФотоотчет.Form" id="903f2e3c-4308-46df-b916-56931cb13039.0" configVersion="9e67f23959e8904c979ee6062383a8b200000000"/>
+		<Metadata name="Document.Тренировка" id="4c99f8d8-dca7-4ab2-8b2a-188ad85a8e40" configVersion="6a5e4863f8460b4f8dc984199957436100000000">
+			<Metadata name="Document.Тренировка.TabularSection.Упражнения" id="465b2f4d-51ce-4b59-af2a-4e747ca60311"/>
+			<Metadata name="Document.Тренировка.Attribute.МестоТренировки" id="69f1bdc7-a5eb-4dd2-b1a5-5f75149e208e"/>
+			<Metadata name="Document.Тренировка.TabularSection.Упражнения.Attribute.ЧислоПовторений" id="6d182233-a7cb-458a-b371-72e87ada1ef0"/>
+			<Metadata name="Document.Тренировка.TabularSection.Упражнения.Attribute.КоличествоПодходов" id="9ac02b68-316a-4051-9dfa-977cb1a0e265"/>
+			<Metadata name="Document.Тренировка.TabularSection.Упражнения.Attribute.Упражнение" id="a31dbc32-aafa-4765-ab99-8ea7d6eaef94"/>
+			<Metadata name="Document.Тренировка.Attribute.ПродолжительностьТренировки" id="c36a7d05-3524-4aa8-922e-3db9d29ce438"/>
+			<Metadata name="Document.Тренировка.TabularSection.Упражнения.Attribute.Выполнено" id="c6581e00-0abc-477c-b0ee-0e212293b049"/>
+			<Metadata name="Document.Тренировка.TabularSection.Упражнения.Attribute.Вес" id="c9b58aff-68c1-422a-9dc0-2ba9dc5296cd"/>
+		</Metadata>
+		<Metadata name="Document.Тренировка.Form.ФормаДокумента" id="63827caf-c1f6-47f8-8079-e65d13c3ef05" configVersion="e5f3fa14bf97cc48802a949fb824054100000000"/>
+		<Metadata name="Document.Тренировка.Form.ФормаДокумента.Form" id="63827caf-c1f6-47f8-8079-e65d13c3ef05.0" configVersion="4dbd430cc59f52469177c54aadeb2fef00000000"/>
+		<Metadata name="Document.Тренировка.Form.ФормаПосмотраУпражнений" id="5e8ff187-1172-4508-a134-679b91d5de66" configVersion="c19da4c4101a924a99f6cb8e7df8abfd00000000"/>
+		<Metadata name="Document.Тренировка.Form.ФормаПосмотраУпражнений.Form" id="5e8ff187-1172-4508-a134-679b91d5de66.0" configVersion="14be67fc9d582748b722617519c3c5b700000000"/>
+		<Metadata name="Document.Тренировка.Form.ФормаСписка" id="d418c808-fc5c-4a46-95b4-5079117daebe" configVersion="59d2b0ab314e114cb80987af611d951900000000"/>
+		<Metadata name="Document.Тренировка.Form.ФормаСписка.Form" id="d418c808-fc5c-4a46-95b4-5079117daebe.0" configVersion="6b59efe01ae0f541b854890d098c589f00000000"/>
+		<Metadata name="InformationRegister.УпражненияИГруппыМышц" id="45d692a5-a748-4f7b-bc9b-d57c9ce956b1" configVersion="fec813b64aea6f4a8acadf87e0d1a38500000000">
+			<Metadata name="InformationRegister.УпражненияИГруппыМышц.Dimension.Упражнение" id="1599d54f-3e7a-43e8-acc2-e043d892e599"/>
+			<Metadata name="InformationRegister.УпражненияИГруппыМышц.Dimension.ГруппаМышц" id="cc36e6ae-c325-44fa-a524-0fd6b1035fcd"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="9b4f23ca-6a87-49d4-a417-9c51b3560102" configVersion="47ea308e0c1d9945bb4a31e09116dd2800000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.4">
+	<Item id="58a77ec1-7852-40c0-937f-96b10052e268">
+		<Name>Грудь</Name>
+		<Code>000000001</Code>
+		<Description>Грудь</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a2be0469-bedc-4ae2-9da4-b079659d3cbf">
+		<Name>Ноги</Name>
+		<Code>000000004</Code>
+		<Description>Ноги</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9a2d6ce2-f807-4bb4-ae33-3bc8e1d877f9">
+		<Name>Плечи</Name>
+		<Code>000000005</Code>
+		<Description>Плечи</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="729df1f7-c07f-4e41-980b-d2f9599c6e50">
+		<Name>Руки</Name>
+		<Code>000000003</Code>
+		<Description>Руки</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a2373f3f-30e3-45f3-be89-980b95cec18e">
+		<Name>Спина</Name>
+		<Code>000000002</Code>
+		<Description>Спина</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>
